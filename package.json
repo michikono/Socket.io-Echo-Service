@@ -1,0 +1,15 @@
+{
+  "name": "socket.io-echo-service",
+  "version": "0.0.1",
+  "description": "bounce back everything you send in socket.io",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.2.1",
+    "socketio-wildcard": "^0.1.1"
+  },
+  "scripts": {
+    "preserver": "npm install",
+    "server": "node index.js"
+  }
+}
